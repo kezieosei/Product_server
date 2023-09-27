@@ -35,7 +35,7 @@ def get_product_by_id(product_id):
     return jsonify({"Error" : "Product not found"}),404    
 
 
-    return jsonify({"error": "Product not found"}), 404
+
     
 @app.route('/products', methods=['POST'])
 def create_product():
